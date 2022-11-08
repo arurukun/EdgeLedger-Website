@@ -1,0 +1,110 @@
+/* text color */
+
+.text-primary{
+    color: rgb(15, 246, 15);
+}
+
+.text-secondary{
+    color: green;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(15, 246, 15);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn-primary,.bg-primary{
+    background-color: rgb(15, 246, 15);
+    color: white;
+}
+
+.btn-secondary,.bg-secondary{
+    background-color: rgb(15, 88, 246);
+    color: white;
+}
+
+.btn-dark,.bg-dark{
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+
+.btn-light,.bg-light{
+    background-color: rgb(234, 248, 234);
+    color: rgb(16, 15, 15);
+}
+
+.btn-outline{
+    background: transparent;
+    border: 1px solid white;
+}
+
+/* flex-box */
+
+.flex-items{
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    text-align: center;
+    height: 100%;
+}
+
+.flex-items > div{
+    padding:20px
+}
+
+/* .flex-columns */
+
+.flex-column .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex-column .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.flex-column .column .column-1,
+.flex-column .column .column-2{
+    height: 100%;
+}
+
+.flex-column img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.flex-column .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+
+.flex-column .column-2 h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.flex-column .column-2 h4{
+    margin-bottom: 20px;
+}
+
+.flex-column .column-2 p{
+    margin: 20px 0;
+}
