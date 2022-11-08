@@ -108,3 +108,23 @@
 .flex-column .column-2 p{
     margin: 20px 0;
 }
+
+/* .section-header */
+
+.section-header{
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: blanchedalmond; */
+}
+
+.section-header h4 h2{
+    background-color: red;
+}
+
+.i{
+    display: flex;
+}
+
+.i a{
+    background-color: aqua;
+}
