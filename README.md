@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://arurukun.github.io/EdgeLedger-Website/" rel="noopener">
+  <a href="https://arurukun.github.io/EdgeLedger-Website/" rel="noopener" target="_blank">
  <img src="./img/Screenshot (6).png" alt="Project logo"></a>
 </p>
 
