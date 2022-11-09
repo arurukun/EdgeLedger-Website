@@ -137,3 +137,6 @@ img{
     margin-bottom: 15px;
 }
 
+.team img{
+    border-radius: 50%;
+}
