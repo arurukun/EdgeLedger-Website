@@ -178,6 +178,36 @@ img{
     margin-top: 20px;
 }
 
+/* post */
+
+.post{
+    padding: 50px 30px;
+    background-color: bisque;
+}
+
+.post h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(204, 199, 199);
+}
+
+.post .meta{
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+
+.post img{
+    background-color: aquamarine;
+    border: 1px black solid;
+    /* chkchk */
+    /* why display block and then image get center */
+    display: block;
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
 /* footer */
 
 .footer{
