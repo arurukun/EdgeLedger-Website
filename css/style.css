@@ -50,6 +50,7 @@ img{
     position:fixed;
     top:0px;
     padding: 0 30px;
+    transition: 0.5s ;
 }
 
 .navbar a{
@@ -70,6 +71,11 @@ img{
 #navbar .logo{
     font-weight: 400;
 }
+
+.navbar.top{
+    background: transparent;
+}
+
 
 /* header */
 
@@ -182,7 +188,6 @@ img{
 
 .post{
     padding: 50px 30px;
-    background-color: bisque;
 }
 
 .post h2{
@@ -193,13 +198,10 @@ img{
 }
 
 .post .meta{
-    background-color: aqua;
     margin-bottom: 30px;
 }
 
 .post img{
-    background-color: aquamarine;
-    border: 1px black solid;
     /* chkchk */
     /* why display block and then image get center */
     display: block;
@@ -224,8 +226,13 @@ img{
 }
 
 .footer i:hover{
-    color: rgb(11, 248, 11);
+    color: rgb(11, 50, 248);
 }
+
+.footer i.red:hover{
+    color: red;
+}
+
 
 /* media-queries */
 

@@ -14,7 +14,7 @@
 
 <body id="home">
     <header class="hero">
-        <div id="navbar" class="navbar">
+        <div id="navbar" class="navbar top">
             <h1 class="logo">
                 <span class="text-primary"><i class="fas fa-book-open"></i>Edge</span> Leger
             </h1>
@@ -194,11 +194,32 @@
         <div class="social">
             <i class="fab fa-facebook fa-2x"></i>
             <i class="fab fa-twitter fa-2x"></i>
-            <i class="fab fa-youtube fa-2x"></i>
+            <i class="fab fa-youtube fa-2x red"></i>
             <i class="fab fa-linkedin fa-2x"></i>
         </div>
         <p>Copyright &copy:2022 - EdgeLeger</p>
     </footer>
+
+    <script>
+        const navbar=document.getElementById("navbar");
+        let scrolled=false;
+        window.onscroll=function(){
+            if(window.pageYOffset > 100){
+                navbar.classList.remove("top");
+                if(!scrolled){
+                navbar.Style.transform="translateY(-70px)";
+                 }
+                seeTimeout(function(){
+                    navbar.style.translaform="translateY(0)";
+                    sclloed=true;
+                },200);
+             }else{
+            nabvar.classList.add("top");
+            scrolled=false
+            }
+        }
+    
+    </script>
 </body>
 
 </html>
