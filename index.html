@@ -202,20 +202,11 @@
 
     <script>
         const navbar=document.getElementById("navbar");
-        let scrolled=false;
         window.onscroll=function(){
-            if(window.pageYOffset > 100){
+            if(window.pageYOffset > 400){
                 navbar.classList.remove("top");
-                if(!scrolled){
-                navbar.Style.transform="translateY(-70px)";
-                 }
-                seeTimeout(function(){
-                    navbar.style.translaform="translateY(0)";
-                    sclloed=true;
-                },200);
              }else{
-            nabvar.classList.add("top");
-            scrolled=false
+                nabvar.classList.add("top");
             }
         }
     
